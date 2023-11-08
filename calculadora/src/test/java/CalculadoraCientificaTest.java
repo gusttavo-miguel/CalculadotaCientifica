@@ -94,7 +94,6 @@ class CalculadoraCientificaTest {
     void testeLogaritmo3() {
         assertThrows(IllegalArgumentException.class, () -> calculadora.logaritmo(-1));
     }
-
     @AfterEach
     void tearDown() {
         calculadora = null;
